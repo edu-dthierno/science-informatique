@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "DM Sans";
+		}
+
+		.container {
+			width: 1300px;
+			margin: auto;
+		}
+		
+
+		@media (max-width: 400px) {
+			.container {
+				width: 300px;
+				margin: auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div>%sveltekit.body%</div>
+</body>
+
+</html>
