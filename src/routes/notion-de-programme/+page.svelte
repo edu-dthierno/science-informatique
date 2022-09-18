@@ -105,6 +105,9 @@
         border-radius: 15px;
         box-shadow: 0px 0px 7px rgba(218, 218, 218, 0.507);
     }
+    .mobile-banner {
+        display: none;
+    }
     img {
         border-radius: 15px;
     }
@@ -146,6 +149,7 @@
             display: none;
         }
         .mobile-banner {
+            display: block;
             margin-top: 40px;
             font-size: 0.75rem;
             text-align: center;

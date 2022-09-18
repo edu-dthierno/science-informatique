@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>NSI | Sciences Informatiques</title>
+    <title>Science Informatique</title>
 </svelte:head>
 <div>
     <div class="container">
@@ -8,8 +8,7 @@
             <h2>Rejoignez des centaines d'apprenants gratuitement.</h2>
             <p>
                 Abonnez-vous et recevez des fiches de révisions par chapitre
-                ainsi que
-                <br />des sujets type bac chaque semaine avec l'essentiel du
+                ainsi que <br />des sujets type bac chaque semaine avec l'essentiel du
                 cours!
             </p>
             <div class="action">
@@ -86,6 +85,7 @@
 
     .cours {
         margin-top: 70px;
+        margin-bottom: 70px;
         display: flex;
         gap: 50px;
         flex-wrap: wrap;
