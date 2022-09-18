@@ -2,7 +2,7 @@
     <a href="/">
         <div class="logo container">
             <img src="/logo.svg" alt="Logo" class="logo" />
-            <h1>Sciences Informatiques</h1>
+            <h1>Science Informatique</h1>
         </div>
     </a>
 </header>
