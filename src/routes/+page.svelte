@@ -75,6 +75,8 @@
         margin-top: 55px;
         display: flex;
         justify-content: center;
+        align-self: center;
+        text-align: center;
         flex-direction: column;
         gap: 10px;
     }
